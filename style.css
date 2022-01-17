@@ -1,0 +1,340 @@
+/* sekcija3* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body{
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.swiper {
+        width: 100%;
+        height: 100%;
+        margin-top: -33%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+.swiper-button-next{
+  top:70%;
+  color: white;
+}
+.swiper-button-prev{
+  top:70%;
+  color: white;
+}
+.navbar{
+  position: sticky;
+  width: 100%;
+  opacity: 0.8;
+}
+.carousel {
+    position: relative;
+    margin-top: -33%;
+}
+.navbar-brand {
+  margin-left: 18%;
+}
+#navbarNavDropdown {
+    justify-content: flex-end;
+}
+.fluid-shadow.pic2 {
+    width: 100%;
+}
+.sekcija3_img{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-link.active:hover {
+  border-bottom: 5px solid black;
+  margin-bottom: -5px;
+}
+.lead {
+    width: 60%;
+    margin: 0 auto;
+}
+.row-s{
+  height: 16em;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: rgb(233, 233, 233);
+  margin:0px;
+  box-sizing: border-box;
+}
+.gumb1{
+  margin-top: 2em;
+}
+.bg-img{
+  background-image:url(./img/photo-big.jpg);
+  background-size: cover;
+  height: 85vh;
+}
+.btn .btn-outline-light{
+  color: white;
+  border: 1px solid white;
+  width: 10em;
+}
+.btn .btn-outline-light:hover{
+  color: black;
+}
+.sekcija_2 > h1{
+  margin-top: 4.4em;
+}
+.sekcija2.text-center.text-muted {
+    margin-top: 3em;
+    margin-bottom: 10em;
+}
+.sekcija_2{
+  position:relative;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .sekcija_2, .sekcija_3 {
+  text-align: left;
+  }
+  .sekcija2 .sekcija2_text, .sekcija_3_text{
+    order: 1;
+  }
+  .sekcija2 .s2_img{
+    order:-1;
+  }
+}
+.row_s2{
+  width: 70%;
+  margin: 0 auto;
+}
+.sekcija2 .sekcija2_text, .sekcija_3_text{
+  margin-top: 11%;
+  text-align: left;
+}
+.sekcija_2:before {
+  content: "";
+  display: block;
+  border-top: solid 2px #bebebe;
+  width: 65%;
+  margin-left: 20%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+.sekcija_2 span {
+  background: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+.sekcija3{
+  height: 100%;
+  background-color: rgb(233, 233, 233);
+  border:20px solid rgb(233, 233, 233);
+}
+.sekcija_3 > h1{
+  margin-top: 4.4em;
+}
+.sekcija_3.text-center.text-muted {
+    margin-top: 3em;
+    margin-bottom: 10em;
+}
+.sekcija_3{
+  position:relative;
+  margin-top: 10px;
+}
+.sekcija3_text{
+  margin-top: 4.5em;
+}
+.row_s3{
+  width: 70%;
+  margin: 0 auto;
+}
+.sekcija3 > h1{
+  margin-top: 2em;
+}
+.sekcija3 .sekcija_3_text{
+  margin-top: 5em;
+  width: 49%;
+}
+.sekcija_3:before {
+  content: "";
+  display: block;
+  border-top: solid 2px #bebebe;
+  width: 65%;
+  margin-left: 20%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+.col-sm-3.col-md-3 {
+    padding: 10px;
+}
+.sekcija_3 span  {
+  background: rgb(233, 233, 233);
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+.btn1 .btn-outline-black{
+  color: black;
+  border: 1px solid ;
+  width: 10em;
+  align-items: center;
+}
+.btn1 .btn-outline-black:hover{
+  background-color: black;
+  color: white;
+}
+img {
+    position: relative;
+    width: -webkit-fill-available;
+    height: auto;
+    margin-top: 25%;
+}
+.pic2{
+  margin-top: 10px
+}
+h3 > span, .icon > .fa {
+  color: black;
+  height: 20px;
+}
+.icon .fa{
+  height: 10px;
+}
+.overlay-box{
+  position: relative;
+}
+.icon-overlay-box{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #0c0c0c82;
+  overflow: hidden;
+  widows: 100%;
+  height: 0;
+  transition: .5s ease;
+
+}
+.overlay-box:hover .icon-overlay-box{
+  bottom: 0;
+  height: 100%;
+}
+.icon-overlay-box > a{
+  color:#fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+iframe{
+  width: 100%;
+}
+/* .footer{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+} */
+.row{
+  padding: 14px;
+  text-align: left;
+}
+.footer{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(100, 101, 100);
+  text-align: left;
+}
+ ul {
+  list-style-image: url(https://img.icons8.com/material-sharp/24/ffffff/star--v1.png);
+}
+ul li{
+  text-align: left;
+  top: 10px;
+}
+.social img{
+  width: 30px;
+}
+.soc{
+  justify-content: space-between;
+}
+.social {
+    display: flex;
+    justify-content: flex-end;
+    margin: -50px 79px;
+}
+a{
+  padding: 20px;
+}
+.footer_ul li::before{
+  margin-left: -1em;
+  color: white;
+}
+.sekcija4{
+  height: 200px;
+}
+.swiper2 {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide2 {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide2 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+.swiper2{
+  width: 100%;
+    top: 20em;
+    height: 100%;
+}
